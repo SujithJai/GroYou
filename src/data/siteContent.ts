@@ -94,6 +94,7 @@ export const founders = [
     role: "Production Head & COO",
     experience: "3+ Years Experience",
     image: assets.founder2,
+    position: "center 15%",
     bio: "Turns brand presence into premium digital experiences and conversion stories.",
   },
   {
@@ -101,6 +102,7 @@ export const founders = [
     role: "Brand & Performance Marketing Lead",
     experience: "3+ Years Experience",
     image: assets.founder3,
+    position: "center top",
     bio: "Connects ads, data, lead flow, and AI workflows into one execution system.",
   },
 ];
