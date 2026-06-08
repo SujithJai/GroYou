@@ -30,28 +30,20 @@ export default function Contact() {
     if (status !== "idle") setStatus("idle");
   };
 
-  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setStatus("loading");
+  await fetch(brand.leadWebhookUrl, {
+  method: "POST",
+  mode: "no-cors",
 
-    try {
-      const response = await fetch(brand.leadWebhookUrl, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name: form.name,
-          business: form.business,
-          phone: form.phone,
-          email: form.email,
-          service: form.service,
-          budget: form.budget,
-          message: form.message,
-        }),
-      });
-
-      if (!response.ok) throw new Error("Lead submission failed");
+  body: JSON.stringify({
+    name: form.name,
+    business: form.business,
+    phone: form.phone,
+    email: form.email,
+    service: form.service,
+    budget: form.budget,
+    message: form.message,
+  }),
+});
 
       setForm(initialForm);
       setStatus("success");
