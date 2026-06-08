@@ -62,7 +62,7 @@ exort default function Hero() {
   className="text-sm md:text-base uppercase tracking-[0.2em] mb-6"
   style={{ color: "#39FF14" }}
 >
-  Digital Marketing Agency in Chennai | SEO, Performance Marketing & AI Automation
+  Digital Marketing Agency in Chennai • SEO • Performance Marketing • AI Automation
 </h2>
 
           <p className="text-lg md:text-xl max-w-lg mb-10 leading-relaxed" style={{ color: "#D9D9D9" }}>
