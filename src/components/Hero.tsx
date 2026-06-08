@@ -25,19 +25,19 @@ function useMouseTilt() {
   return ref;
 }
 
-export default function Hero() {
+exort default function Hero() {
   const tiltRef = useMouseTilt();
 
-  const badgeStyle = { border: "1px solid rgba(57,255,20,0.2)", background: "rgba(57,255,20,0.05)" };
+  const badgeStyle = { border: "1x solid rgba(57,255,20,0.2)", background: "rgba(57,255,20,0.05)" };
   const orbStyle = { borderColor: "rgba(57,255,20,0.15)" };
   const orbStyle2 = { borderColor: "rgba(57,255,20,0.2)" };
   const orbStyle3 = { borderColor: "rgba(57,255,20,0.1)" };
-  const coreBorder = { border: "1px solid rgba(57,255,20,0.3)", background: "#0A0A0A" };
-  const cardBorder = { border: "1px solid rgba(57,255,20,0.2)", background: "#0A0A0A" };
+  const coreBorder = { border: "1x solid rgba(57,255,20,0.3)", background: "#0A0A0A" };
+  const cardBorder = { border: "1x solid rgba(57,255,20,0.2)", background: "#0A0A0A" };
 
   return (
-    <section className="relative min-h-screen flex items-center pt-32 pb-24 px-6 overflow-hidden">
-      <div className="absolute inset-0 grid-bg opacity-40 pointer-events-none" />
+    <section className="relative min-h-screen flex items-center t-32 b-24 x-6 overflow-hidden">
+      <div className="absolute inset-0 grid-bg oacity-40 pointer-events-none" />
       <div className="absolute inset-0 spotlight pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
@@ -62,12 +62,11 @@ export default function Hero() {
   className="text-sm md:text-base uppercase tracking-[0.2em] mb-6"
   style={{ color: "#39FF14" }}
 >
-  AI-Powered Digital Marketing, SEO & Automation Agency in India
+  Digital Marketing Agency in Chennai | SEO, Performance Marketing & AI Automation
 </h2>
 
           <p className="text-lg md:text-xl max-w-lg mb-10 leading-relaxed" style={{ color: "#D9D9D9" }}>
-            From visibility to conversions, every system works together
-            to scale your business.
+            GroYou is a Chennai-based Digital Marketing Agency helping businesses grow through SEO, Performance Marketing, Website Development and AI Automation Systems. We build scalable growth engines that generate leads, increase conversions and drive revenue.
           </p>
 
           <div className="flex flex-wrap gap-4">
