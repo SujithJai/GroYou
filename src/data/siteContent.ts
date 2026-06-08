@@ -8,7 +8,7 @@ export const brand = {
   phone: "+91 8667038564",
   whatsapp: "https://wa.me/918667038564",
   form: "#contact",
-  leadWebhookUrl: "https://script.google.com/macros/s/AKfycbxxxxxxxxxxxxxxxxxxxxxxxx/exec",
+  https://script.google.com/macros/s/AKfycbyXs4efwM8c4YTE94RtrX5K11sHSW27A7bbX8NokadX_OqhhC2M1DPJ9qSlpb3YnEU/exec,
   location: ["Medavakkam", "Chennai - 600100"],
 };
 
