@@ -87,6 +87,7 @@ export const founders = [
     role: "Founder & CEO",
     experience: "6+ Years Experience",
     image: assets.founder1,
+    position: "center 15%",
     bio: "Builds growth systems that connect strategy, traffic, funnels, and automation.",
   },
   {
@@ -102,7 +103,7 @@ export const founders = [
     role: "Brand & Performance Marketing Lead",
     experience: "3+ Years Experience",
     image: assets.founder3,
-    position: "center top",
+    position: "center 12%",
     bio: "Connects ads, data, lead flow, and AI workflows into one execution system.",
   },
 ];
