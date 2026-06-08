@@ -103,7 +103,7 @@ export const founders = [
     role: "Brand & Performance Marketing Lead",
     experience: "3+ Years Experience",
     image: assets.founder3,
-    position: "center 12%",
+    position: "center 30%",
     bio: "Connects ads, data, lead flow, and AI workflows into one execution system.",
   },
 ];
