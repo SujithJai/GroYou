@@ -26,6 +26,24 @@ export default function App() {
       <CustomCursor />
       <Header />
       <FloatingSocialPanel />
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "GroYou",
+      url: "https://groyou.in",
+      logo: "https://groyou.in/logo2.png",
+      description:
+        "AI-Powered Digital Marketing, SEO & Automation Agency in India",
+      sameAs: [
+        "https://www.instagram.com/groyou.in/",
+        "https://www.facebook.com/profile.php?id=61590713036860"
+      ]
+    }),
+  }}
+/>
       <main>
         <Hero />
         <TrustMarquee />
