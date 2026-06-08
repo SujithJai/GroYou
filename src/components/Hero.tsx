@@ -34,6 +34,7 @@ export default function Hero() {
   const orbStyle3 = { borderColor: "rgba(57,255,20,0.1)" };
   const coreBorder = { border: "1x solid rgba(57,255,20,0.3)", background: "#0A0A0A" };
   const cardBorder = { border: "1x solid rgba(57,255,20,0.2)", background: "#0A0A0A" };
+  
 
   return (
     <section className="relative min-h-screen flex items-center t-32 b-24 x-6 overflow-hidden">
