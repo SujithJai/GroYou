@@ -58,6 +58,12 @@ export default function Hero() {
             <br />
             <span className="text-gradient">You Grow Revenue.</span>
           </h1>
+          <h2
+  className="text-sm md:text-base uppercase tracking-[0.2em] mb-6"
+  style={{ color: "#39FF14" }}
+>
+  AI-Powered Digital Marketing, SEO & Automation Agency in India
+</h2>
 
           <p className="text-lg md:text-xl max-w-lg mb-10 leading-relaxed" style={{ color: "#D9D9D9" }}>
             From visibility to conversions, every system works together
