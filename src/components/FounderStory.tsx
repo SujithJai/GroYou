@@ -28,7 +28,7 @@ export default function FounderStory() {
     let currentY = 0;
 
     const handleMouseMove = (e: MouseEvent) => {
-      const rect = image.getBoundingClientRect();
+      const rect = .getBoundingClientRect();
       const centerX = rect.left + rect.width / 2;
       const centerY = rect.top + rect.height / 2;
       targetX = (e.clientX - centerX) * 0.018;
@@ -38,7 +38,7 @@ export default function FounderStory() {
     const animate = () => {
       currentX += (targetX - currentX) * 0.08;
       currentY += (targetY - currentY) * 0.08;
-      image.style.transform = `translate3d(${currentX}px, ${currentY}px, 0)`;
+      .style.transform = `translate3d(${currentX}px, ${currentY}px, 0)`;
       rafId = requestAnimationFrame(animate);
     };
 
@@ -89,7 +89,7 @@ export default function FounderStory() {
               style={{ background: "radial-gradient(circle, rgba(57,255,20,0.22), transparent 70%)" }}
             />
             <div
-              ref={imageRef}
+              ref={Ref}
               className="relative overflow-hidden rounded-[2rem]"
               style={{
                 border: "1px solid rgba(57,255,20,0.18)",
@@ -97,9 +97,9 @@ export default function FounderStory() {
               }}
             >
               <img
-                src={founderStory.image}
+                src={founderStory.}
                 alt={`${founderStory.founderName} - ${founderStory.founderRole}`}
-                className="h-[520px] w-full object-cover object-top"
+                className="h-[720px] w-full object-cover object-top"
               />
               <div
                 className="absolute inset-0"
