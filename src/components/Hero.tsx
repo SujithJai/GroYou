@@ -62,11 +62,11 @@ export default function Hero() {
   className="text-sm md:text-base uppercase tracking-[0.2em] mb-6"
   style={{ color: "#39FF14" }}
 >
-  Digital Marketing Agency in Chennai • SEO • Performance Marketing • AI Automation
+  Digital Marketing Agency in Chennai
 </h2>
 
           <p className="text-lg md:text-xl max-w-lg mb-10 leading-relaxed" style={{ color: "#D9D9D9" }}>
-            GroYou is a Chennai-based Digital Marketing Agency helping businesses grow through SEO, Performance Marketing, Website Development and AI Automation Systems. We build scalable growth engines that generate leads, increase conversions and drive revenue.
+            GroYou is a Chennai-based Digital Marketing Agency helping businesses grow through SEO, Performance Marketing, Website Development and AI Automation Systems.
           </p>
 
           <div className="flex flex-wrap gap-4">
