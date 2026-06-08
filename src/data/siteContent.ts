@@ -13,7 +13,7 @@ export const brand = {
 };
 
 export const assets = {
-  logo: "/Logo2.png",
+  logo: "/logo2.png",
   founder1: "/founder1.png",
   founder2: "/founder2.png",
   founder3: "/founder3.png",
