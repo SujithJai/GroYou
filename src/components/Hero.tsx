@@ -44,7 +44,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
         {/* LEFT */}
         <div>
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8 mt-10" style={badgeStyle}>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8 mt-25" style={badgeStyle}>
             <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: "#39FF14" }} />
             <span className="text-xs tracking-[0.2em] uppercase" style={{ color: "#39FF14" }}>
               AI Powered Growth Engine
