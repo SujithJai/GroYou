@@ -44,6 +44,33 @@ export default function App() {
     }),
   }}
 />
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "GroYou",
+      "url": "https://groyou.in",
+      "image": "https://groyou.in/logo2.png",
+      "description": "Digital Marketing Agency in Chennai offering SEO, Performance Marketing and AI Automation Services.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "IN"
+      },
+      "areaServed": "Chennai",
+      "serviceType": [
+        "SEO Services",
+        "Performance Marketing",
+        "Digital Marketing",
+        "AI Automation",
+        "Website Development"
+      ]
+    }),
+  }}
+/>
       <main>
         <Hero />
         <TrustMarquee />
