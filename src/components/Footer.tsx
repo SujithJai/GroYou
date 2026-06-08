@@ -87,6 +87,23 @@ export default function Footer() {
             </div>
           </div>
         </div>
+</div>
+</div>
+
+{/* SEO Location Signals */}
+<div
+  className="text-center py-8 border-t"
+  style={{ borderColor: "rgba(57,255,20,0.1)" }}
+>
+  <p
+    className="text-sm leading-8"
+    style={{ color: "#8A8A8A" }}
+  >
+    Digital Marketing Agency in Chennai • SEO Services Chennai •
+    Performance Marketing Agency Chennai • AI Automation Services Chennai •
+    Website Development Company Chennai
+  </p>
+</div>
 
         {/* Bottom */}
         <div className="pt-8 border-t flex flex-wrap items-center justify-between gap-4" style={{ borderColor: "rgba(57,255,20,0.1)" }}>
