@@ -88,7 +88,7 @@ function FounderCard({ founder, index }: { founder: typeof founders[0]; index: n
           <img
             src={founder.image}
             alt={founder.name}
-            className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
+            className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
             style={{
               filter: "contrast(1.05)",
             }}
