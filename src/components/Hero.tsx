@@ -25,7 +25,7 @@ function useMouseTilt() {
   return ref;
 }
 
-exort default function Hero() {
+export default function Hero() {
   const tiltRef = useMouseTilt();
 
   const badgeStyle = { border: "1x solid rgba(57,255,20,0.2)", background: "rgba(57,255,20,0.05)" };
