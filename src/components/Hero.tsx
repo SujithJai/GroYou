@@ -49,7 +49,6 @@ export default function Hero() {
               AI Powered Growth Engine
             </span>
           </div>
-
           <h1
             className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.05] tracking-tight mb-8"
             style={{ fontFamily: "'Space Grotesk', sans-serif", color: "#fff" }}
