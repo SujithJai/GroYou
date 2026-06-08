@@ -88,7 +88,6 @@ export default function Footer() {
           </div>
         </div>
 </div>
-</div>
 
 {/* SEO Location Signals */}
 <div
