@@ -113,7 +113,6 @@ export default function Footer() {
             {brand.tagline}
           </div>
         </div>
-      </div>
     </footer>
   );
 }
