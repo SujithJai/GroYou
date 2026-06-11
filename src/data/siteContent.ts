@@ -5,8 +5,8 @@ export const brand = {
   tagline: "Grow. Connect. Succeed.",
   domain: "groyou.in",
   email: "surjith.t@groyou.in",
-  phone: "+91 8667038564",
-  whatsapp: "https://wa.me/918667038564",
+  phone: "+91 9790101324",
+  whatsapp: "https://wa.me/919790101324",
   form: "#contact",
   leadWebhookUrl: "https://script.google.com/macros/s/AKfycbyXs4efwM8c4YTE94RtrX5K11sHSW27A7bbX8NokadX_OqhhC2M1DPJ9qSIpb3YnEU/exec",
   location: ["Medavakkam", "Chennai - 600100"],
@@ -34,8 +34,8 @@ export const socialLinks = [
   },
   {
     label: "WhatsApp",
-    handle: "+91 8667038564",
-    href: "https://wa.me/918667038564",
+    handle: "+91 9790101324",
+    href: "https://wa.me/919790101324",
     short: "WA",
   },
 ];
