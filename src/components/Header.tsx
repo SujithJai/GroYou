@@ -4,6 +4,7 @@ import { assets, brand } from "../data/siteContent";
 
 const navLinks = [
   { label: "Story", href: "#story" },
+  { label: "Our Works", href: "#works" },
   { label: "Services", href: "#services" },
   { label: "Results", href: "#results" },
   { label: "AI Systems", href: "#ai-systems" },
