@@ -18,8 +18,49 @@ import FAQ from "./components/FAQ";
 import FinalCTA from "./components/FinalCTA";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { useEffect, useState } from "react";
+import OurWorks from "./pages/OurWorks";
 
+function useHashRoute() {
+  const [route, setRoute] = useState(
+    window.location.hash.replace("#", "")
+  );
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      setRoute(window.location.hash.replace("#", ""));
+      window.scrollTo(0, 0);
+    };
+
+    window.addEventListener("hashchange", handleHashChange);
+
+    return () =>
+      window.removeEventListener(
+        "hashchange",
+        handleHashChange
+      );
+  }, []);
+
+  return route;
+}
 export default function App() {
+const route = useHashRoute();
+  
+  if (route === "works") {
+  return (
+    <div
+      className="min-h-screen"
+      style={{ background: "#050505", color: "#fff" }}
+    >
+      <CustomCursor />
+      <Header />
+      <FloatingSocialPanel />
+      <OurWorks />
+      <Footer />
+    </div>
+  );
+}
+  
   return (
     <div className="min-h-screen" style={{ background: "#050505", color: "#fff" }}>
       <Preloader />
