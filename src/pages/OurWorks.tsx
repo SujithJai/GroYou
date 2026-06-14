@@ -3,6 +3,7 @@ import Preloader from "../components/Preloader";
 import CustomCursor from "../components/CustomCursor";
 import Header from "../components/Header";
 import FloatingSocialPanel from "../components/FloatingSocialPanel";
+import Footer from "../components/Footer";
 import { brand, assets } from "../data/siteContent";
 
 /* ===========================================================
