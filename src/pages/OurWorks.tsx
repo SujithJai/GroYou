@@ -911,7 +911,6 @@ export default function OurWorks() {
         <ClientSuccess />
         <WorksCTA />
       </main>
-      <Footer />
     </div>
   );
 }
